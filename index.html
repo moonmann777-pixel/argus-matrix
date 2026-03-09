@@ -108,7 +108,7 @@
 <div id="videoContainer"></div>
 
 <script>
-    const defaultStream = "https://f7b399c8cf81ac81.mediapackage.eu-west-1.amazonaws.com/out/v1/ed7de9d586d64ce1940c9ae8b6fce82c/index.m3u8";
+    const defaultStream = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
     const hlsInstances = [];
     const lastVideoTime = Array(12).fill(0);
     const lastRealTime = Array(12).fill(Date.now());
@@ -280,4 +280,5 @@
     function clearSavedData() { if(confirm("Wipe all settings?")) { localStorage.clear(); location.reload(); } }
 </script>
 </body>
+
 </html>
